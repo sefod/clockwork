@@ -177,7 +177,7 @@ else :
                     
                     <?php the_title(); ?>
 
-                    <? echo '
+                    <?php echo '
                   </div>
                 </div></a></li>';
 				}
