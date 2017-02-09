@@ -1561,6 +1561,8 @@ embed, iframe, object {
 
 .site-branding {
     float: left;
+    position:relative;
+    z-index:9999;
 }
 
 .text-footer-project {
@@ -2275,6 +2277,7 @@ a:focus {
         position: absolute!important;
         top: 0px!important;
         right: 75px!important;
+	z-index: 9999;
     }
 
     #site-navigation .navbar-toggle {
@@ -2594,7 +2597,7 @@ a:focus {
     }
 }
 
-@media (min-width: 767px) and (max-width: 768px) {
+ @media (min-width: 767px) and (max-width: 768px) {
         .single-project .project-conten-movil.visible-xs,
 	.single-project .project-conten-inf-movil.visible-xs,
 	.single-project .carousel .item .visible-xs {
